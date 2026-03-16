@@ -74,7 +74,7 @@ sudo apt install ninja-build
 Okay, at this point, you should be able to fetch V8. This will take some time and create a separate v8 directory. We will use this single V8 source directory to build for different challenges, so we don’t need to fetch it again each time.
 
 ```bash
-fetch v8
+fetch --nohooks v8
 cd v8
 ```
 
